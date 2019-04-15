@@ -36,8 +36,9 @@ public class HelloWorld extends HttpServlet {
         out.println("<HEAD>");
         out.println("<TITLE>Hello World Servlets</TITLE>");
         out.println("</HEAD>");
-        out.println("<BODY BGCOLOR=\"white\">");
-        out.println("<P>Hello World</P>");
+        out.println("<BODY BGCOLOR=\"red\">");
+        out.println("<h1>Hello World</h1>");
+        out.println("<P>Vivavox</P>");
         out.println("</BODY>");
         out.println("</HTML>");
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
